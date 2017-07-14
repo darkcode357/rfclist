@@ -12,7 +12,7 @@ def rfclist():
     url = site.format(numero_rfc)
     rfc_raw = urllib.request.urlopen(url).read()
     rfc = rfc_raw.decode()
-    save = str(input("quer salar o arquiv s/n :"))
+    save = str(input("quer salar o arquivo s/n :"))
     if save == 's':
         print("salvando.....")
         print("um momento.....")
