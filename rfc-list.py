@@ -1,7 +1,8 @@
 from os import system
 import sys, urllib.request
-criador = "by darkcode 14/7/2017"
+criador = "by darkcode 14/7/2017\nsite:https://www.darkcode0x00.com"
 versao = "1"
+
 def rfclist():
     try:
         numero_rfc = int(sys.argv[1])
